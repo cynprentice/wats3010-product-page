@@ -1,0 +1,69 @@
+/* Site Styles Go Here */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-element {
+    flex: 0 1 auto;
+   
+}
+
+/* Style buttons*/
+.btn-primary {
+    background-color: #ff0090;
+    border-color:#ff0090;
+}
+.btn-primary:hover {
+    background-color: black;
+    border-color: #ff0090;
+}
+
+/* style product pages*/
+.row {
+    padding: 5%;
+}
+div.row:nth-of-type(even){
+    background-color:pink;
+}
+
+
+/* style visited liks */
+
+a:visited {
+    color:git#90ee90;
+
+
+}
+
+/* style button click motion */
+
+.click:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+/* center header and text for user testimonials on product page */
+.my-4, .testimonials {
+    text-align: center;
+}
+
+
+/* add margin between user testimonials and footer on product page */
+.bottom-row {
+    margin-bottom: 5%;
+}
+
+.btn-center {
+
+}
+
+
+/* style product carousel */
+
+  .product-carousel {
+      backgroud-color: pink;
+  }
