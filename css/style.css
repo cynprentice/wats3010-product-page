@@ -30,7 +30,9 @@
 div.row:nth-of-type(odd) {
     background-color: pink;
 }
-
+div.row:nth-of-type(even) {
+    background-color: silver;
+}
 
 /* style visited liks */
 
