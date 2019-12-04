@@ -8,14 +8,15 @@
 
 .flex-element {
     flex: 0 1 auto;
-   
+
 }
 
 /* Style buttons*/
 .btn-primary {
     background-color: #ff0090;
-    border-color:#ff0090;
+    border-color: #ff0090;
 }
+
 .btn-primary:hover {
     background-color: black;
     border-color: #ff0090;
@@ -25,15 +26,16 @@
 .row {
     padding: 5%;
 }
-div.row:nth-of-type(even){
-    background-color:pink;
+
+div.row:nth-of-type(odd) {
+    background-color: pink;
 }
 
 
 /* style visited liks */
 
 a:visited {
-    color:git#90ee90;
+    color: git#90ee90;
 
 
 }
@@ -44,10 +46,11 @@ a:visited {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-  }
+}
 
 /* center header and text for user testimonials on product page */
-.my-4, .testimonials {
+.my-4,
+.testimonials {
     text-align: center;
 }
 
@@ -56,11 +59,3 @@ a:visited {
 .bottom-row {
     margin-bottom: 5%;
 }
-
-.carousel-text-item{
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
