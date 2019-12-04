@@ -56,3 +56,11 @@ a:visited {
 .bottom-row {
     margin-bottom: 5%;
 }
+
+.carousel-text-item{
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
